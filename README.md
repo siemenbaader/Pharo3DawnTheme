@@ -11,14 +11,16 @@ I have updated the installation instructions to work with Pharo 4.0 and that is 
 
 ![Pharo 3 Dawn Theme Screenshot](https://raw.githubusercontent.com/siemenbaader/Pharo3DawnTheme/master/img/screenshot.png)
 
-*Is your Pharo able to github already?*
+##Installation instructions for Pharo 4.0
+
+*If your Pharo isn't able to do github already:*
 
         Gofer new 
             url: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main';
             configurationOf: 'GitFileTree'; 
             loadStable.
 
-##Installation instructions for Pharo 4.0
+Then:
         
         | repo |
         
